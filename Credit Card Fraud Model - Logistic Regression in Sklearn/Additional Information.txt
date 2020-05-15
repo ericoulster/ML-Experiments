@@ -1,0 +1,13 @@
+Of the projects in my ML-Portfolio, this is the first one I tackled.
+
+From a cursory look at datasets available from Kaggle, this one was the least processed, having not been previously manipulated with principal component analysis for each feature beforehand.
+
+The dataset is available here: https://www.kaggle.com/shubhamjoshi2130of/abstract-data-set-for-credit-card-fraud-detection
+
+Upon seeing that fraud cases were already by a boolean target variable, I immediately thought to use a logistic regression.
+
+The Data's features were already well engineered, so aside from changing 'Y/N' to '1/0' for boolean values, I had to do very little to prep this dataset for analysis.
+
+For hyperparameter tuning, I realized that the default l2 regularization was too punishing on outlying values, and opted instead for a more forgiving l1. This immediately boosted the predictive accuracy of this model from ~87% to 99%.
+
+I am very pleased with the outcome of this model, especially considering I only put in approximately 2 hours of work on it.
