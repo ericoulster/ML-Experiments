@@ -8,8 +8,8 @@ The source data is from a forum of personality psychology enthusiasts called 'Pe
 
 Data was partitioned into it's 4 set of binaries (introvert-extrovert, intuitive-sensing, feeling-thinking, judging-perceiving), then descriptive statistics were provided using tf-idf vectors and descriptive statistics.
 
-This is technically more of a 'descriptive statistical' project than a machine learning model, largely because the data wasn't well-suited to analysis.
+This is technically more of a 'descriptive statistical' project than a machine learning model, largely because the properties of the data. Nevertheless, this project highlights text processing step that would be used for an ML model.
 
-Descriptive statistical methods along with attempts at modelling found the data was too similar between personality types to warrant significant results.
+Descriptive statistical methods along with attempts at modelling found the data was too similar between personality types to warrant effective analysis.
 
 Nevertheless, the minute differences between these 4 sets of personality binaries have been catalogued, along with associated wordclouds for each binary.
