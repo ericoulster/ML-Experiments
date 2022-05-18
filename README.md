@@ -1,4 +1,4 @@
-# ML-Portfolio
+# ML-Experiments
 A repository containing sample/practice Machine Learning models completed outside of work.
 
 While all of the work shown off in here is complete, some of it is more proof-of-concept work than an optimized model.
